@@ -14,6 +14,7 @@ FOLDER=: 'arc/lz4'
 
 FILES=: 0 : 0
 lz4.ijs
+test1.ijs
 readme.txt
 )
 

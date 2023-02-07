@@ -10,3 +10,5 @@ $ sudo apt-get install lz4
 $ sudo dnf install lz4
 
 For Windows and Mac, lz4 binary is bundled with the addon.
+
+See test1.ijs for benchmark with zlib.
