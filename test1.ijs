@@ -2,7 +2,7 @@ require 'arc/zlib arc/lz4'
 
 t1=: 3 : 0
 a0=. fread (1!:46''),'/',((UNAME-:'Darwin')+IFUNIX){::'j.dll';'libj.so';'libj.dylib'
-echo 'zlib compress Level 1:   ', ": 6!:2 'a1=. 1&zlib_compress a0'
+echo 'zlib compress Level 1:   ', ":6!:2 'a1=. 1&zlib_compress a0'
 echo 'zlib uncompress Leve1 1: ', ":6!:2 'a2=. zlib_uncompress a1'
 echo 'zlib sizes: ', ":a0 ,&# a1
 assert. a0-:a2
