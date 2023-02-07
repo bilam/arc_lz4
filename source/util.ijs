@@ -8,7 +8,7 @@ require 'pacman'
 if. rc do.
  smoutput 'unable to download: ',z return.
 end.
-(<jpath'~bin/liblz4.dll') 1!:2~ 1!:1 <p
+(jpath '~addons/arc/lz4/lib/',IF64{::'liblz4_32.dll';'liblz4.dll') 1!:2~ 1!:1 <p
 1!:55 ::0: <p
 smoutput 'done'
 EMPTY
