@@ -15,3 +15,4 @@ f=. 3 : 0
 
 f 'manifest.ijs'
 f 'readme.txt'
+f 'test1.ijs'

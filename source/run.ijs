@@ -1,4 +1,4 @@
 NB. run.ijs
 
 load '~Addons/arc/lz4/lz4.ijs'
-load '~Addons/arc/lz4/source/test/test.ijs'
+load '~Addons/arc/lz4/test1.ijs'
