@@ -1,7 +1,7 @@
 This lz4 addon requires lz4 binary library to encode and decode
 lz4 raw and frame blocks.
 
-For Linux, lz4 can be installed by using
+For Linux, if lz4 had not been installed, then install it by
 
 # Debian derivatives
 $ sudo apt-get install lz4
