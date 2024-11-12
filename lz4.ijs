@@ -3,8 +3,9 @@ coclass 'jlz4'
 3 : 0''
 lib=. ((UNAME-:'Darwin')+IFUNIX){::'liblz4.dll';'liblz4.so';'liblz4.dylib'
 lib1=. ((UNAME-:'Darwin')+IFUNIX){::'liblz4.dll';'liblz4.so.1';'liblz4.1.dylib'
-if. IFWIN > IF64 do. lib=. lib1=. 'liblz4_32.dll' end.
-if. 1=ftype a1=. jpath '~addons/arc/lz4/lib/',lib do.
+if. 1=ftype a1=. jpath '~addons/arc/lz4/lib/',(9!:56'cpu'),'/',lib do.
+ lz4=: a1
+elseif. 1=ftype a1=. jpath '~addons/arc/lz4/lib/',lib do.
  lz4=: a1
 elseif. 1=ftype a1=. jpath '~addons/arc/lz4/lib/',lib1 do.
  lz4=: a1
